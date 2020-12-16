@@ -1,0 +1,25 @@
+{
+  "name": "bstable-react",
+  "version": "0.1.0",
+  "description": "Datatable with bootstrap style for react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/philwu/bstable-react.git"
+  },
+  "keywords": [
+    "table",
+    "datatable",
+    "bootstrap",
+    "react"
+  ],
+  "author": "Philip Wu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/philwu/bstable-react/issues"
+  },
+  "homepage": "https://github.com/philwu/bstable-react#readme"
+}
