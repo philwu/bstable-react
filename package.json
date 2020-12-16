@@ -2,7 +2,9 @@
   "name": "bstable-react",
   "version": "0.1.0",
   "description": "Datatable with bootstrap style for react",
-  "main": "index.js",
+  "private": true,
+  "author": "Philip Wu",
+  "license": "MIT",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -19,26 +21,22 @@
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/philwu/bstable-react.git"
-  },
   "eslintConfig": {
     "extends": [
       "react-app",
       "react-app/jest"
     ]
   },
-  "keywords": [
-    "table",
-    "datatable",
-    "bootstrap",
-    "react"
-  ],
-  "author": "Philip Wu",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/philwu/bstable-react/issues"
-  },
-  "homepage": "https://github.com/philwu/bstable-react#readme"
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
